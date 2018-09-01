@@ -7,3 +7,6 @@
 [submodule "Orbit-PCB/Type-C.pretty"]
 	path = Orbit-PCB/Type-C.pretty
 	url = https://github.com/ai03-2725/Type-C.pretty
+[submodule "Orbit-PCB/Keebio-Parts.pretty"]
+	path = Orbit-PCB/Keebio-Parts.pretty
+	url = https://github.com/keebio/Keebio-Parts.pretty
