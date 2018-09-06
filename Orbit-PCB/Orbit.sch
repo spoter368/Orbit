@@ -2485,8 +2485,6 @@ Wire Wire Line
 	3225 6750 3225 7300
 Wire Wire Line
 	3225 7300 3275 7300
-Wire Notes Line
-	7750 6400 5650 6400
 $Comp
 L Device:R_Small R33
 U 1 1 5BB2CF31
@@ -4793,8 +4791,6 @@ Wire Wire Line
 	3225 14325 3225 14875
 Wire Wire Line
 	3225 14875 3275 14875
-Wire Notes Line
-	7750 13975 5650 13975
 $Comp
 L Device:R_Small R82
 U 1 1 5BCD1D0B
@@ -5275,4 +5271,140 @@ Wire Wire Line
 Wire Wire Line
 	9150 11950 9750 11950
 Connection ~ 9750 11950
+Wire Notes Line
+	14300 675  16150 675 
+Wire Notes Line
+	16150 675  16150 2325
+Wire Notes Line
+	16150 2325 14300 2325
+Wire Notes Line
+	14300 2325 14300 675 
+$Comp
+L Connector_Generic:Conn_01x01 J21
+U 1 1 5C31FC53
+P 14875 1050
+F 0 "J21" H 14955 1092 50  0000 L CNN
+F 1 "Conn_01x01" H 14955 1001 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.5mm_Pad_Via" H 14875 1050 50  0001 C CNN
+F 3 "~" H 14875 1050 50  0001 C CNN
+	1    14875 1050
+	1    0    0    -1  
+$EndComp
+Text Notes 14325 775  0    50   ~ 0
+Extras
+$Comp
+L power:GNDS #PWR01
+U 1 1 5C3200EF
+P 14675 1050
+F 0 "#PWR01" H 14675 800 50  0001 C CNN
+F 1 "GNDS" H 14680 877 50  0000 C CNN
+F 2 "" H 14675 1050 50  0001 C CNN
+F 3 "" H 14675 1050 50  0001 C CNN
+	1    14675 1050
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	9175 5250 9175 7700
+Wire Notes Line
+	5650 6400 9175 6400
+Wire Notes Line
+	9175 12825 9175 15275
+Wire Notes Line
+	5650 13975 9175 13975
+Text Notes 7775 12925 0    50   ~ 0
+Passthrough Holes\n
+Text Notes 7775 5350 0    50   ~ 0
+Passthrough Holes
+$Comp
+L Connector_Generic:Conn_01x01 MH1
+U 1 1 5C5F2D6B
+P 8150 5600
+F 0 "MH1" H 8229 5642 50  0000 L CNN
+F 1 "HOLE" H 8229 5551 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_5mm" H 8150 5600 50  0001 C CNN
+F 3 "~" H 8150 5600 50  0001 C CNN
+	1    8150 5600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7950 5600
+$Comp
+L Connector_Generic:Conn_01x01 MH2
+U 1 1 5C7F1ECF
+P 8175 13150
+F 0 "MH2" H 8254 13192 50  0000 L CNN
+F 1 "HOLE" H 8254 13101 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_5mm" H 8175 13150 50  0001 C CNN
+F 3 "~" H 8175 13150 50  0001 C CNN
+	1    8175 13150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7975 13150
+Text Notes 7775 6500 0    50   ~ 0
+Half Detection
+Text GLabel 8250 6875 0    50   Input ~ 0
+HDETECT
+$Comp
+L Device:R_Small R87
+U 1 1 5C98FB97
+P 8450 6875
+F 0 "R87" V 8254 6875 50  0000 C CNN
+F 1 "10k" V 8345 6875 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" H 8450 6875 50  0001 C CNN
+F 3 "~" H 8450 6875 50  0001 C CNN
+	1    8450 6875
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8350 6875 8250 6875
+Wire Wire Line
+	8675 6875 8550 6875
+$Comp
+L power:+5V #PWR0145
+U 1 1 5CA5E548
+P 8675 6875
+F 0 "#PWR0145" H 8675 6725 50  0001 C CNN
+F 1 "+5V" H 8690 7048 50  0000 C CNN
+F 2 "" H 8675 6875 50  0001 C CNN
+F 3 "" H 8675 6875 50  0001 C CNN
+	1    8675 6875
+	1    0    0    -1  
+$EndComp
+Text Notes 7775 7175 0    50   ~ 0
+Read low = Right hand
+Text Notes 7775 14075 0    50   ~ 0
+Half Detection
+Text GLabel 8250 14450 0    50   Input ~ 0
+HDETECT-R
+$Comp
+L Device:R_Small R88
+U 1 1 5CA60302
+P 8450 14450
+F 0 "R88" V 8254 14450 50  0000 C CNN
+F 1 "10k" V 8345 14450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" H 8450 14450 50  0001 C CNN
+F 3 "~" H 8450 14450 50  0001 C CNN
+	1    8450 14450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8350 14450 8250 14450
+Wire Wire Line
+	8675 14450 8550 14450
+Text Notes 7775 14750 0    50   ~ 0
+Read low = Right hand
+$Comp
+L power:GNDA #PWR0146
+U 1 1 5CAC829D
+P 8675 14450
+F 0 "#PWR0146" H 8675 14200 50  0001 C CNN
+F 1 "GNDA" H 8680 14277 50  0000 C CNN
+F 2 "" H 8675 14450 50  0001 C CNN
+F 3 "" H 8675 14450 50  0001 C CNN
+	1    8675 14450
+	1    0    0    -1  
+$EndComp
+Text GLabel 4100 3050 2    50   Input ~ 0
+HDETECT
+Text GLabel 4100 10625 2    50   Input ~ 0
+HDETECT-R
 $EndSCHEMATC
