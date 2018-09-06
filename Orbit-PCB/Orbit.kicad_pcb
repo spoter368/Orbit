@@ -11585,7 +11585,7 @@
   (gr_line (start 205.9305 120.5865) (end 197.358 112.014) (layer B.SilkS) (width 0.2))
   (gr_line (start 210.2485 116.2685) (end 205.9305 120.5865) (layer B.SilkS) (width 0.2))
   (gr_line (start 201.676 107.696) (end 210.2485 116.2685) (layer B.SilkS) (width 0.2))
-  (gr_text "Orbit PCB Rev 1.1 by ai03" (at 47.625 157.1625) (layer F.SilkS)
+  (gr_text "Orbit PCB Rev 0.1 by ai03" (at 47.625 157.1625) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_arc (start 35.71875 124.61875) (end 36.5125 124.61875) (angle -90) (layer Edge.Cuts) (width 0.15))
