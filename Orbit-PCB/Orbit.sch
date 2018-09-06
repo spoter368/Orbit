@@ -2566,4 +2566,6 @@ Text GLabel 4100 3950 2    50   Input ~ 0
 ROW3
 Text GLabel 4100 3850 2    50   Input ~ 0
 ROW4
+Text GLabel 4100 2950 2    50   Input ~ 0
+LEDIND
 $EndSCHEMATC
