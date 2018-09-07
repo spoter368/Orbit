@@ -8,6 +8,7 @@ A split ergonomic keyboard for all
 - All on-board components; no separate controller board
 - USB Type-C and in-switch backlight
 - Alps SKCL/M and MX compatibility
+- Keyboard-Layout-Editor data is available [here](http://www.keyboard-layout-editor.com/#/gists/53ebf59524de12515cb7e2e6de94f0d6).
 
 ## Designed for all
 - This keyboard remains close to typical QWERTY layout in key positioning.
