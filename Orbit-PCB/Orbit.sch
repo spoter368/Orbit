@@ -2344,7 +2344,7 @@ Wire Wire Line
 Wire Wire Line
 	9175 4925 9775 4925
 Wire Wire Line
-	9775 4925 9775 4075
+	9775 4925 9775 4725
 Connection ~ 9175 2125
 Wire Wire Line
 	9175 2125 9175 2775
@@ -2581,17 +2581,6 @@ F 3 "~" H 6000 6650 50  0001 C CNN
 $EndComp
 NoConn ~ 5800 6650
 $Comp
-L Connector_Generic:Conn_01x01 J4
-U 1 1 5BBF4619
-P 6000 6825
-F 0 "J4" H 6079 6867 50  0000 L CNN
-F 1 "Breakaway_Tabs" H 6079 6776 50  0000 L CNN
-F 2 "locallib:breakaway-mousebites" H 6000 6825 50  0001 C CNN
-F 3 "~" H 6000 6825 50  0001 C CNN
-	1    6000 6825
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x01 J5
 U 1 1 5BBF47C0
 P 6000 7000
@@ -2615,7 +2604,6 @@ F 3 "~" H 6000 7175 50  0001 C CNN
 $EndComp
 NoConn ~ 5800 7175
 NoConn ~ 5800 7000
-NoConn ~ 5800 6825
 $Comp
 L Connector_Generic:Conn_01x01 J7
 U 1 1 5BC3C160
@@ -2628,17 +2616,6 @@ F 3 "~" H 6975 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6775 6650
-$Comp
-L Connector_Generic:Conn_01x01 J8
-U 1 1 5BC3C168
-P 6975 6825
-F 0 "J8" H 7054 6867 50  0000 L CNN
-F 1 "Breakaway_Tabs" H 7054 6776 50  0000 L CNN
-F 2 "locallib:breakaway-mousebites" H 6975 6825 50  0001 C CNN
-F 3 "~" H 6975 6825 50  0001 C CNN
-	1    6975 6825
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J9
 U 1 1 5BC3C16F
@@ -2663,7 +2640,6 @@ F 3 "~" H 6975 7175 50  0001 C CNN
 $EndComp
 NoConn ~ 6775 7175
 NoConn ~ 6775 7000
-NoConn ~ 6775 6825
 $Comp
 L MCU_Microchip_ATmega:ATmega32U4-AU U3
 U 1 1 5BCD1728
@@ -4878,12 +4854,12 @@ NoConn ~ 5800 14225
 $Comp
 L Connector_Generic:Conn_01x01 J15
 U 1 1 5BCD1D42
-P 6000 14400
-F 0 "J15" H 6079 14442 50  0000 L CNN
-F 1 "Breakaway_Tabs" H 6079 14351 50  0000 L CNN
-F 2 "locallib:breakaway-mousebites" H 6000 14400 50  0001 C CNN
-F 3 "~" H 6000 14400 50  0001 C CNN
-	1    6000 14400
+P 14650 2150
+F 0 "J15" H 14729 2192 50  0000 L CNN
+F 1 "Breakaway_Tabs" H 14729 2101 50  0000 L CNN
+F 2 "locallib:breakaway-mousebites" H 14650 2150 50  0001 C CNN
+F 3 "~" H 14650 2150 50  0001 C CNN
+	1    14650 2150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4910,7 +4886,7 @@ F 3 "~" H 6000 14750 50  0001 C CNN
 $EndComp
 NoConn ~ 5800 14750
 NoConn ~ 5800 14575
-NoConn ~ 5800 14400
+NoConn ~ 14450 2150
 $Comp
 L Connector_Generic:Conn_01x01 J14
 U 1 1 5BCD1D5A
@@ -4923,17 +4899,6 @@ F 3 "~" H 6975 14225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6775 14225
-$Comp
-L Connector_Generic:Conn_01x01 J16
-U 1 1 5BCD1D62
-P 6975 14400
-F 0 "J16" H 7054 14442 50  0000 L CNN
-F 1 "Breakaway_Tabs" H 7054 14351 50  0000 L CNN
-F 2 "locallib:breakaway-mousebites" H 6975 14400 50  0001 C CNN
-F 3 "~" H 6975 14400 50  0001 C CNN
-	1    6975 14400
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J18
 U 1 1 5BCD1D69
@@ -4958,7 +4923,6 @@ F 3 "~" H 6975 14750 50  0001 C CNN
 $EndComp
 NoConn ~ 6775 14750
 NoConn ~ 6775 14575
-NoConn ~ 6775 14400
 Text Notes 13050 7650 0    50   ~ 10
 LEFT HAND SCHEMATIC
 Text Notes 11100 15225 0    50   ~ 10
@@ -5263,7 +5227,7 @@ Wire Wire Line
 Connection ~ 12150 11950
 Connection ~ 12175 11650
 Wire Wire Line
-	12175 11650 12175 12500
+	12175 11650 12175 12275
 Wire Wire Line
 	12150 11950 13325 11950
 Wire Wire Line
@@ -5407,4 +5371,136 @@ Text GLabel 4100 3050 2    50   Input ~ 0
 HDETECT
 Text GLabel 4100 10625 2    50   Input ~ 0
 HDETECT-R
+$Comp
+L MX_Alps_Hybrids:MX-1U MXE-1
+U 1 1 5CC78A6A
+P 8575 2100
+F 0 "MXE-1" H 8661 2317 60  0000 C CNN
+F 1 "MX-2U" H 8661 2243 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U" H 8550 2075 60  0001 C CNN
+F 3 "" H 8550 2075 60  0001 C CNN
+	1    8575 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrids:MX-1U MXE-2
+U 1 1 5CC79D1C
+P 8575 3400
+F 0 "MXE-2" H 8661 3617 60  0000 C CNN
+F 1 "MX-2U" H 8661 3543 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U" H 8550 3375 60  0001 C CNN
+F 3 "" H 8550 3375 60  0001 C CNN
+	1    8575 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrids:MX-1U MXE-3
+U 1 1 5CC7A722
+P 9650 4700
+F 0 "MXE-3" H 9736 4917 60  0000 C CNN
+F 1 "MX-2U" H 9736 4843 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U-ReversedStabilizers" H 9625 4675 60  0001 C CNN
+F 3 "" H 9625 4675 60  0001 C CNN
+	1    9650 4700
+	1    0    0    -1  
+$EndComp
+Connection ~ 9775 4725
+Wire Wire Line
+	9775 4725 9775 4075
+$Comp
+L MX_Alps_Hybrids:MX-1U MXE-6
+U 1 1 5CC7BD3E
+P 12050 12250
+F 0 "MXE-6" H 12136 12467 60  0000 C CNN
+F 1 "MX-2U" H 12136 12393 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U-ReversedStabilizers" H 12025 12225 60  0001 C CNN
+F 3 "" H 12025 12225 60  0001 C CNN
+	1    12050 12250
+	1    0    0    -1  
+$EndComp
+Connection ~ 12175 12275
+Wire Wire Line
+	12175 12275 12175 12500
+$Comp
+L MX_Alps_Hybrids:MX-1U MXE-4
+U 1 1 5CC7DA98
+P 13100 9675
+F 0 "MXE-4" H 13186 9892 60  0000 C CNN
+F 1 "MX-2U" H 13186 9818 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U-ReversedStabilizers" H 13075 9650 60  0001 C CNN
+F 3 "" H 13075 9650 60  0001 C CNN
+	1    13100 9675
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrids:MX-1U MXE-5
+U 1 1 5CC7F491
+P 13100 10975
+F 0 "MXE-5" H 13186 11192 60  0000 C CNN
+F 1 "MX-2U" H 13186 11118 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U-ReversedStabilizers" H 13075 10950 60  0001 C CNN
+F 3 "" H 13075 10950 60  0001 C CNN
+	1    13100 10975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9225 3375 8750 3375
+Connection ~ 9225 3375
+Wire Wire Line
+	9175 3425 8700 3425
+Wire Wire Line
+	8950 3575 8550 3575
+Connection ~ 8950 3575
+Wire Wire Line
+	8600 3525 9075 3525
+Connection ~ 9075 3525
+Wire Wire Line
+	9225 2075 8750 2075
+Wire Wire Line
+	8700 2125 9175 2125
+Wire Wire Line
+	9075 2225 8600 2225
+Connection ~ 9075 2225
+Wire Wire Line
+	8550 2275 8950 2275
+Connection ~ 8950 2275
+Wire Wire Line
+	9825 4025 9825 4675
+Connection ~ 9825 4025
+Wire Wire Line
+	9675 4825 9675 4175
+Connection ~ 9675 4175
+Wire Wire Line
+	9625 4225 9625 4875
+Connection ~ 9625 4225
+Wire Wire Line
+	12825 9650 13275 9650
+Wire Wire Line
+	13225 9700 12775 9700
+Wire Wire Line
+	12750 9800 13125 9800
+Connection ~ 12750 9800
+Wire Wire Line
+	13075 9850 12625 9850
+Connection ~ 12625 9850
+Wire Wire Line
+	13275 10950 12825 10950
+Connection ~ 12825 10950
+Wire Wire Line
+	12775 11000 13225 11000
+Wire Wire Line
+	13125 11100 12750 11100
+Connection ~ 12750 11100
+Wire Wire Line
+	12625 11150 13075 11150
+Connection ~ 12625 11150
+Wire Wire Line
+	12225 11600 12225 12225
+Connection ~ 12225 11600
+Wire Wire Line
+	12075 12375 12075 11750
+Connection ~ 12075 11750
+Wire Wire Line
+	12025 11800 12025 12425
+Connection ~ 12025 11800
 $EndSCHEMATC
