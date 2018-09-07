@@ -10,6 +10,6 @@ A split ergonomic keyboard for all
 - Alps SKCL/M and MX compatibility
 
 ## Designed for all
-This keyboard remains close to typical QWERTY layout in key positioning.
-Most keys remain in their typical locations, which allows easy migration from standard layout keyboards.
-Whether new to ergonomic layouts or already an avid adopter, Orbit will suit your needs.
+- This keyboard remains close to typical QWERTY layout in key positioning.
+- Most keys remain in their typical locations, which allows easy migration from standard layout keyboards.
+- Whether new to ergonomic layouts or already an avid adopter, Orbit will suit your needs.
