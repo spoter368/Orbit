@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U1
+L MCU_Microchip_ATmega:ATmega32U4-MU U1
 U 1 1 5B8AA2C1
 P 3500 2850
 F 0 "U1" H 3500 964 50  0000 C CNN
@@ -2641,7 +2641,7 @@ $EndComp
 NoConn ~ 6775 7175
 NoConn ~ 6775 7000
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U3
+L MCU_Microchip_ATmega:ATmega32U4-MU U3
 U 1 1 5BCD1728
 P 3500 10425
 F 0 "U3" H 3500 8539 50  0000 C CNN
