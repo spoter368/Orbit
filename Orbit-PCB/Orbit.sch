@@ -2501,8 +2501,8 @@ L Device:LED_Small D35
 U 1 1 5BB2D93C
 P 6900 5950
 F 0 "D35" H 6900 5745 50  0000 C CNN
-F 1 "LED_1.8mm" H 6900 5836 50  0000 C CNN
-F 2 "LEDs:LED_D3.0mm" V 6900 5950 50  0001 C CNN
+F 1 "LED_3mm" H 6900 5836 50  0000 C CNN
+F 2 "locallib:LED_D3.0mm" V 6900 5950 50  0001 C CNN
 F 3 "~" V 6900 5950 50  0001 C CNN
 	1    6900 5950
 	-1   0    0    1   
@@ -2518,16 +2518,16 @@ F 1 "GND" H 7255 5777 50  0000 C CNN
 F 2 "" H 7250 5950 50  0001 C CNN
 F 3 "" H 7250 5950 50  0001 C CNN
 	1    7250 5950
-	1    0    0    -1  
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	7250 5950 7000 5950
 Text GLabel 6175 5950 0    50   Input ~ 0
-LEDIND
+LEDIND-2
 Wire Wire Line
 	6175 5950 6350 5950
 Text Notes 5675 5350 0    50   ~ 0
-Indicator LED
+Indicator LEDs\n
 Text GLabel 4100 1750 2    50   Input ~ 0
 COL0
 Text GLabel 4100 1850 2    50   Input ~ 0
@@ -2563,7 +2563,7 @@ ROW3
 Text GLabel 4100 3850 2    50   Input ~ 0
 ROW4
 Text GLabel 4100 2950 2    50   Input ~ 0
-LEDIND
+LEDIND-1
 Wire Notes Line
 	7750 675  7750 7700
 Text Notes 5675 6500 0    50   ~ 0
@@ -4783,8 +4783,8 @@ L Device:LED_Small D70
 U 1 1 5BCD1D12
 P 6900 13525
 F 0 "D70" H 6900 13320 50  0000 C CNN
-F 1 "LED_1.8mm" H 6900 13411 50  0000 C CNN
-F 2 "LEDs:LED_D3.0mm" V 6900 13525 50  0001 C CNN
+F 1 "LED_3mm" H 6900 13411 50  0000 C CNN
+F 2 "locallib:LED_D3.0mm" V 6900 13525 50  0001 C CNN
 F 3 "~" V 6900 13525 50  0001 C CNN
 	1    6900 13525
 	-1   0    0    1   
@@ -4794,11 +4794,11 @@ Wire Wire Line
 Wire Wire Line
 	7250 13525 7000 13525
 Text GLabel 6175 13525 0    50   Input ~ 0
-LEDIND-R
+LEDIND-2-R
 Wire Wire Line
 	6175 13525 6350 13525
 Text Notes 5675 12925 0    50   ~ 0
-Indicator LED
+Indicator LEDs\n
 Text GLabel 4100 9325 2    50   Input ~ 0
 COL0-R
 Text GLabel 4100 9425 2    50   Input ~ 0
@@ -4834,7 +4834,7 @@ ROW3-R
 Text GLabel 4100 11425 2    50   Input ~ 0
 ROW4-R
 Text GLabel 4100 10525 2    50   Input ~ 0
-LEDIND-R
+LEDIND-1-R
 Wire Notes Line
 	7750 8250 7750 15275
 Text Notes 5675 14075 0    50   ~ 0
@@ -4997,11 +4997,11 @@ L power:GNDA #PWR0130
 U 1 1 5BDB0A32
 P 7250 13525
 F 0 "#PWR0130" H 7250 13275 50  0001 C CNN
-F 1 "GNDA" H 7255 13352 50  0000 C CNN
+F 1 "GNDA" V 7255 13397 50  0000 R CNN
 F 2 "" H 7250 13525 50  0001 C CNN
 F 3 "" H 7250 13525 50  0001 C CNN
 	1    7250 13525
-	1    0    0    -1  
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GNDA #PWR0131
@@ -5509,4 +5509,142 @@ Wire Wire Line
 Wire Wire Line
 	13075 4025 12825 4025
 Connection ~ 12825 4025
+$Comp
+L Device:R_Small R89
+U 1 1 5DA6BD82
+P 6450 5625
+F 0 "R89" V 6254 5625 50  0000 C CNN
+F 1 "1k" V 6345 5625 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" H 6450 5625 50  0001 C CNN
+F 3 "~" H 6450 5625 50  0001 C CNN
+	1    6450 5625
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_Small D71
+U 1 1 5DA6BD89
+P 6900 5625
+F 0 "D71" H 6900 5420 50  0000 C CNN
+F 1 "LED_3mm" H 6900 5511 50  0000 C CNN
+F 2 "locallib:LED_D3.0mm" V 6900 5625 50  0001 C CNN
+F 3 "~" V 6900 5625 50  0001 C CNN
+	1    6900 5625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6800 5625 6550 5625
+Text GLabel 6175 5625 0    50   Input ~ 0
+LEDIND-1
+Wire Wire Line
+	6175 5625 6350 5625
+Wire Wire Line
+	7000 5625 7250 5625
+Wire Wire Line
+	7250 5625 7250 5950
+Connection ~ 7250 5950
+$Comp
+L Device:R_Small R90
+U 1 1 5DB56624
+P 6450 6275
+F 0 "R90" V 6254 6275 50  0000 C CNN
+F 1 "1k" V 6345 6275 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" H 6450 6275 50  0001 C CNN
+F 3 "~" H 6450 6275 50  0001 C CNN
+	1    6450 6275
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_Small D72
+U 1 1 5DB5662B
+P 6900 6275
+F 0 "D72" H 6900 6070 50  0000 C CNN
+F 1 "LED_3mm" H 6900 6161 50  0000 C CNN
+F 2 "locallib:LED_D3.0mm" V 6900 6275 50  0001 C CNN
+F 3 "~" V 6900 6275 50  0001 C CNN
+	1    6900 6275
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6800 6275 6550 6275
+Text GLabel 6175 6275 0    50   Input ~ 0
+LEDIND-3
+Wire Wire Line
+	6175 6275 6350 6275
+Wire Wire Line
+	7000 6275 7250 6275
+Wire Wire Line
+	7250 6275 7250 5950
+$Comp
+L Device:R_Small R91
+U 1 1 5DC48BA4
+P 6450 13200
+F 0 "R91" V 6254 13200 50  0000 C CNN
+F 1 "1k" V 6345 13200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" H 6450 13200 50  0001 C CNN
+F 3 "~" H 6450 13200 50  0001 C CNN
+	1    6450 13200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_Small D73
+U 1 1 5DC48BAB
+P 6900 13200
+F 0 "D73" H 6900 12995 50  0000 C CNN
+F 1 "LED_3mm" H 6900 13086 50  0000 C CNN
+F 2 "locallib:LED_D3.0mm" V 6900 13200 50  0001 C CNN
+F 3 "~" V 6900 13200 50  0001 C CNN
+	1    6900 13200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6800 13200 6550 13200
+Text GLabel 6175 13200 0    50   Input ~ 0
+LEDIND-1-R
+Wire Wire Line
+	6175 13200 6350 13200
+Wire Wire Line
+	7000 13200 7250 13200
+Wire Wire Line
+	7250 13200 7250 13525
+Connection ~ 7250 13525
+$Comp
+L Device:R_Small R92
+U 1 1 5DEA831B
+P 6450 13850
+F 0 "R92" V 6254 13850 50  0000 C CNN
+F 1 "1k" V 6345 13850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" H 6450 13850 50  0001 C CNN
+F 3 "~" H 6450 13850 50  0001 C CNN
+	1    6450 13850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_Small D74
+U 1 1 5DEA8322
+P 6900 13850
+F 0 "D74" H 6900 13645 50  0000 C CNN
+F 1 "LED_3mm" H 6900 13736 50  0000 C CNN
+F 2 "locallib:LED_D3.0mm" V 6900 13850 50  0001 C CNN
+F 3 "~" V 6900 13850 50  0001 C CNN
+	1    6900 13850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6800 13850 6550 13850
+Text GLabel 6175 13850 0    50   Input ~ 0
+LEDIND-3-R
+Wire Wire Line
+	6175 13850 6350 13850
+Wire Wire Line
+	7000 13850 7250 13850
+Wire Wire Line
+	7250 13850 7250 13525
+Text GLabel 4100 3750 2    50   Input ~ 0
+LEDIND-2
+Text GLabel 4100 3550 2    50   Input ~ 0
+LEDIND-3
+Text GLabel 4100 11325 2    50   Input ~ 0
+LEDIND-2-R
+Text GLabel 4100 11125 2    50   Input ~ 0
+LEDIND-3-R
 $EndSCHEMATC
