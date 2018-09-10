@@ -5658,10 +5658,10 @@ Wire Notes Line
 Text Notes 14275 775  0    50   ~ 0
 Extras
 $Comp
-L Mechanical:MountingHole FID?
+L Mechanical:MountingHole FID1
 U 1 1 5E220BC1
 P 14400 925
-F 0 "FID?" H 14500 971 50  0000 L CNN
+F 0 "FID1" H 14500 971 50  0000 L CNN
 F 1 "Fiducial" H 14500 880 50  0000 L CNN
 F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 14400 925 50  0001 C CNN
 F 3 "~" H 14400 925 50  0001 C CNN
@@ -5669,10 +5669,10 @@ F 3 "~" H 14400 925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole FID?
+L Mechanical:MountingHole FID2
 U 1 1 5E221C0C
 P 14400 1125
-F 0 "FID?" H 14500 1171 50  0000 L CNN
+F 0 "FID2" H 14500 1171 50  0000 L CNN
 F 1 "Fiducial" H 14500 1080 50  0000 L CNN
 F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 14400 1125 50  0001 C CNN
 F 3 "~" H 14400 1125 50  0001 C CNN
@@ -5680,10 +5680,10 @@ F 3 "~" H 14400 1125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole FID?
+L Mechanical:MountingHole FID3
 U 1 1 5E221E76
 P 14400 1325
-F 0 "FID?" H 14500 1371 50  0000 L CNN
+F 0 "FID3" H 14500 1371 50  0000 L CNN
 F 1 "Fiducial" H 14500 1280 50  0000 L CNN
 F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 14400 1325 50  0001 C CNN
 F 3 "~" H 14400 1325 50  0001 C CNN

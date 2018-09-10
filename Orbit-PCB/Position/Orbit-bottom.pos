@@ -1,4 +1,4 @@
-### Module positions - created on 09/10/18 00:49:27 ###
+### Module positions - created on 09/10/18 18:09:38 ###
 ### Printed by Pcbnew version kicad (5.0.0)
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -87,6 +87,8 @@ D68       SOD-123             D_SOD-123                        -278.6062  -121.4
 D69       SOD-123             D_SOD-123                        -311.9437  -121.4437   90.0000  bottom
 F1        500mA               Fuse_SMD1206_Reflow              -141.2875   -49.2125   90.0000  bottom
 F2        500mA               Fuse_SMD1206_Reflow              -215.9000   -49.2125   90.0000  bottom
+J1        PJ-3200B-4A         PJ-3200B-4A                      -168.8080  -106.6550  225.0000  bottom
+J11       PJ-3200B-4A         PJ-3200B-4A                      -194.7295  -106.6550  315.0000  bottom
 Q1        2N7002              SOT-23                           -147.6375  -129.3812   90.0000  bottom
 Q2        2N7002              SOT-23                           -207.9625  -110.1090   90.0000  bottom
 R1        10k                 R_0805                           -136.5250  -120.0150    0.0000  bottom
@@ -181,8 +183,8 @@ R89       1k                  R_0805                            -43.6880  -116.6
 R90       1k                  R_0805                            -33.7820  -116.6812    0.0000  bottom
 R91       1k                  R_0805                           -319.8812  -116.7130  180.0000  bottom
 R92       1k                  R_0805                           -329.8190  -116.7130  180.0000  bottom
-SW1       SW_Push             SKQG-1155865                     -173.4820  -119.6340  150.0000  bottom
-SW2       SW_Push             SKQG-1155865                     -190.5000  -119.7610   30.0000  bottom
+SW1       SW_Push             SKQGADE010                       -173.4820  -119.6340  150.0000  bottom
+SW2       SW_Push             SKQGADE010                       -190.5000  -119.7610   30.0000  bottom
 U1        ATmega32U4-MU       QFN-44-1EP_7x7mm_Pitch0.5mm      -127.7620  -112.3950  180.0000  bottom
 U2        PRTR5V0U2X          SOT143B                          -144.3990   -38.8937  270.0000  bottom
 U3        ATmega32U4-MU       QFN-44-1EP_7x7mm_Pitch0.5mm      -233.9570  -115.9597    0.0000  bottom
