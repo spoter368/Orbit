@@ -1,7 +1,7 @@
 # Orbit keyboard
 A split ergonomic keyboard for all
 
-![Render Image](https://raw.githubusercontent.com/ai03-2725/Orbit/master/Images/PCB-R1.2.jpg)
+![Render Image](https://raw.githubusercontent.com/ai03-2725/Orbit/master/Images/PCB-R1.5.jpg)
 
 ## Features
 - Ergonomic layout based on the [crkbd](https://github.com/foostan/crkbd)
