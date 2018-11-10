@@ -630,6 +630,11 @@
       (net 1 GND))
     (pad 13 thru_hole oval (at 4.32 2.6) (size 1 1.6) (drill oval 0.6 1.2) (layers *.Cu *.Mask)
       (net 1 GND))
+    (model "${KIPRJMOD}/Type-C.pretty/HRO  TYPE-C-31-M-12.step"
+      (offset (xyz -4.47 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 180))
+    )
   )
 
   (module Type-C:HRO-TYPE-C-31-M-12-Assembly (layer B.Cu) (tedit 5B968BF6) (tstamp 5BA13239)
@@ -689,6 +694,11 @@
       (net 112 GNDA))
     (pad 13 thru_hole oval (at 4.32 2.6) (size 1 1.6) (drill oval 0.6 1.2) (layers *.Cu *.Mask)
       (net 112 GNDA))
+    (model "${KIPRJMOD}/Type-C.pretty/HRO  TYPE-C-31-M-12.step"
+      (offset (xyz -4.47 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 180))
+    )
   )
 
   (module locallib:LED_D3.0mm (layer F.Cu) (tedit 5B965EC7) (tstamp 5BAB9C68)
@@ -1009,6 +1019,11 @@
       (net 156 VDD))
     (pad 1 smd rect (at -0.75 -1 270) (size 1 0.7) (layers B.Cu B.Paste B.Mask)
       (net 112 GNDA))
+    (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-143.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -90))
+    )
   )
 
   (module MX_Alps_Hybrid:MX-1U (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5B9F83B3)
@@ -1076,6 +1091,11 @@
       (net 5 +5V))
     (pad "" np_thru_hole circle (at 1.6 0 225) (size 1.5 1.5) (drill 1.5) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 8.6 0 225) (size 1.5 1.5) (drill 1.5) (layers *.Cu *.Mask))
+    (model ${KIPRJMOD}/locallib.pretty/PJ-3200B.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 -90))
+    )
   )
 
   (module Diodes_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5B8AD512)
@@ -2600,6 +2620,11 @@
       (net 46 VCC))
     (pad 1 smd rect (at -1.2 0) (size 2.03 1.14) (layers B.Cu B.Paste B.Mask)
       (net 5 +5V))
+    (model ${KISYS3DMOD}/Diode_SMD.3dshapes/D_1206_3216Metric.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MX_Alps_Hybrid:MX-1U (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5B8AD89E)
@@ -5398,6 +5423,11 @@
       (net 46 VCC))
     (pad 1 smd rect (at -0.75 -1 270) (size 1 0.7) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
+    (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-143.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -90))
+    )
   )
 
   (module Molex-0548190589:Reset_Pretty-Mask locked (layer B.Cu) (tedit 5B91617A) (tstamp 5B8AF4FE)
@@ -5636,6 +5666,11 @@
     (pad 1 smd rect (at -3.4 2.5 180) (size 0.7 0.25) (layers B.Cu B.Paste B.Mask)
       (net 230 LEDIND-3))
     (model ${KISYS3DMOD}/Housings_DFN_QFN.3dshapes/QFN-44-1EP_7x7mm_Pitch0.5mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/QFN-44-1EP_7x7mm_P0.5mm_EP5.15x5.15mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7714,6 +7749,11 @@
       (net 156 VDD))
     (pad 1 smd rect (at -1.2 0) (size 2.03 1.14) (layers B.Cu B.Paste B.Mask)
       (net 115 +5VA))
+    (model ${KISYS3DMOD}/Diode_SMD.3dshapes/D_1206_3216Metric.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module locallib:PJ-3200B-4A locked (layer B.Cu) (tedit 5B8AB781) (tstamp 5BAB16BE)
@@ -7743,6 +7783,11 @@
       (net 115 +5VA))
     (pad "" np_thru_hole circle (at 1.6 0 315) (size 1.5 1.5) (drill 1.5) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 8.6 0 315) (size 1.5 1.5) (drill 1.5) (layers *.Cu *.Mask))
+    (model ${KIPRJMOD}/locallib.pretty/PJ-3200B.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 -90))
+    )
   )
 
   (module Molex-0548190589:Reset_Pretty-Mask locked (layer B.Cu) (tedit 5B66FABC) (tstamp 5B9F8331)
@@ -10765,6 +10810,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/QFN-44-1EP_7x7mm_P0.5mm_EP5.15x5.15mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MX_Alps_Hybrid:MX-1U (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5B9FBDAC)
@@ -10848,6 +10898,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Crystal.3dshapes/Crystal_SMD_2520-4pin_2.5x2.0mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Crystals:Crystal_SMD_2520-4pin_2.5x2.0mm (layer B.Cu) (tedit 58CD2E9C) (tstamp 5BA49315)
@@ -10889,6 +10944,11 @@
     (pad 1 smd rect (at -0.875 -0.7 180) (size 1.15 1) (layers B.Cu B.Paste B.Mask)
       (net 111 "Net-(C8-Pad1)"))
     (model ${KISYS3DMOD}/Crystals.3dshapes/Crystal_SMD_2520-4pin_2.5x2.0mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Crystal.3dshapes/Crystal_SMD_2520-4pin_2.5x2.0mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12239,8 +12299,12 @@
       (xy -0.616926 -3.756741) (xy -0.338122 -3.790977) (xy -0.058259 -3.805002) (xy 0.222072 -3.798811)) (layer F.SilkS) (width 0.01))
   )
 
-  (dimension 15.875 (width 0.3) (layer F.SilkS)
-    (gr_text "15.875 mm" (at 179.10625 34.925 90) (layer F.SilkS)
+  (gr_arc (start 198.2851 142.0876) (end 198.7931 143.1671) (angle 84.55047252) (layer Edge.Cuts) (width 0.15) (tstamp 5BAA8FD7))
+  (gr_arc (start 185.2041 119.4562) (end 184.1881 120.0912) (angle 93.54022461) (layer Edge.Cuts) (width 0.15) (tstamp 5BAA8FD5))
+  (gr_arc (start 165.2524 142.0876) (end 164.7444 143.1671) (angle -84.55047252) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 178.3334 119.4562) (end 179.3494 120.0912) (angle -93.54022461) (layer Edge.Cuts) (width 0.15))
+  (dimension 15.875 (width 0.3) (layer Cmts.User)
+    (gr_text "15.875 mm" (at 179.10625 34.925 90) (layer Cmts.User)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 153.9875 26.9875) (xy 177.592671 26.9875)))
@@ -12251,8 +12315,8 @@
     (arrow2a (pts (xy 177.00625 42.8625) (xy 177.592671 41.735996)))
     (arrow2b (pts (xy 177.00625 42.8625) (xy 176.419829 41.735996)))
   )
-  (dimension 17.4625 (width 0.3) (layer F.SilkS)
-    (gr_text "17.462 mm" (at 175.1375 34.13125 90) (layer F.SilkS)
+  (dimension 17.4625 (width 0.3) (layer Cmts.User)
+    (gr_text "17.462 mm" (at 175.1375 34.13125 90) (layer Cmts.User)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 153.9875 25.4) (xy 173.623921 25.4)))
@@ -12397,9 +12461,7 @@
     (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
   )
   (gr_line (start 200.025 34.528125) (end 200.025 75.40625) (layer Edge.Cuts) (width 0.15))
-  (gr_arc (start 198.2851 142.0876) (end 198.7931 143.1671) (angle 84.55047252) (layer Edge.Cuts) (width 0.15) (tstamp 5BAA8FD7))
   (gr_line (start 200.025 101.6) (end 200.025 75.40625) (layer Edge.Cuts) (width 0.15) (tstamp 5BAA8FD6))
-  (gr_arc (start 185.2041 119.4562) (end 184.1881 120.0912) (angle 93.54022461) (layer Edge.Cuts) (width 0.15) (tstamp 5BAA8FD5))
   (gr_line (start 184.1881 120.0912) (end 197.2564 142.6845) (layer Edge.Cuts) (width 0.15) (tstamp 5BAA8FD4))
   (gr_line (start 198.7931 143.1671) (end 226.6315 127.127) (layer Edge.Cuts) (width 0.15) (tstamp 5BAA8FD2))
   (gr_line (start 243.68125 123.825) (end 238.125 123.825) (layer Edge.Cuts) (width 0.15) (tstamp 5BAA79D5))
@@ -12638,8 +12700,6 @@
   (gr_arc (start 315.515625 126.603125) (end 314.325 126.603125) (angle 90) (layer Edge.Cuts) (width 0.15) (tstamp 5B9F3EF0))
   (gr_arc (start 315.515625 39.290625) (end 315.515625 40.48125) (angle 90) (layer Edge.Cuts) (width 0.15) (tstamp 5B9F3EF3))
   (gr_arc (start 313.134375 36.909375) (end 313.134375 35.71875) (angle 90) (layer Edge.Cuts) (width 0.15) (tstamp 5B9F3EF6))
-  (gr_arc (start 165.2524 142.0876) (end 164.7444 143.1671) (angle -84.55047252) (layer Edge.Cuts) (width 0.15))
-  (gr_arc (start 178.3334 119.4562) (end 179.3494 120.0912) (angle -93.54022461) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 162.321875 34.528125) (end 163.5125 34.528125) (angle -90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 149.621875 32.146875) (end 149.621875 27.78125) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 105.171875 125.015625) (end 105.171875 126.20625) (angle -90) (layer Edge.Cuts) (width 0.15))
