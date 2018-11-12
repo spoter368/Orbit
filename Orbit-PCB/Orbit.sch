@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Orbit-cache
 EELAYER 26 0
 EELAYER END
 $Descr A2 23386 16535
@@ -77,30 +78,6 @@ $EndComp
 Wire Wire Line
 	4950 3450 4700 3450
 $Comp
-L Device:R_Small R1
-U 1 1 5B8AA613
-P 2525 1250
-F 0 "R1" H 2584 1296 50  0000 L CNN
-F 1 "10k" H 2584 1205 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" H 2525 1250 50  0001 C CNN
-F 3 "~" H 2525 1250 50  0001 C CNN
-	1    2525 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0104
-U 1 1 5B8AA6A6
-P 2525 1050
-F 0 "#PWR0104" H 2525 900 50  0001 C CNN
-F 1 "+5V" H 2540 1223 50  0000 C CNN
-F 2 "" H 2525 1050 50  0001 C CNN
-F 3 "" H 2525 1050 50  0001 C CNN
-	1    2525 1050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2525 1050 2525 1150
-$Comp
 L Switch:SW_Push SW1
 U 1 1 5B8AA746
 P 2125 1350
@@ -111,11 +88,6 @@ F 3 "" H 2125 1550 50  0001 C CNN
 	1    2125 1350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2325 1350 2525 1350
-Connection ~ 2525 1350
-Wire Wire Line
-	2525 1350 2900 1350
 $Comp
 L power:GND #PWR0105
 U 1 1 5B8AA7EC
@@ -2671,19 +2643,6 @@ $EndComp
 Wire Wire Line
 	4950 11025 4700 11025
 $Comp
-L Device:R_Small R45
-U 1 1 5BCD174C
-P 2525 8825
-F 0 "R45" H 2584 8871 50  0000 L CNN
-F 1 "10k" H 2584 8780 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" H 2525 8825 50  0001 C CNN
-F 3 "~" H 2525 8825 50  0001 C CNN
-	1    2525 8825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2525 8625 2525 8725
-$Comp
 L Switch:SW_Push SW2
 U 1 1 5BCD175A
 P 2125 8925
@@ -2694,11 +2653,6 @@ F 3 "" H 2125 9125 50  0001 C CNN
 	1    2125 8925
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2325 8925 2525 8925
-Connection ~ 2525 8925
-Wire Wire Line
-	2525 8925 2900 8925
 Wire Wire Line
 	1725 8925 1925 8925
 $Comp
@@ -5082,17 +5036,6 @@ F 3 "" H 3400 8575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5VA #PWR0138
-U 1 1 5BE914B4
-P 2525 8625
-F 0 "#PWR0138" H 2525 8475 50  0001 C CNN
-F 1 "+5VA" H 2540 8798 50  0000 C CNN
-F 2 "" H 2525 8625 50  0001 C CNN
-F 3 "" H 2525 8625 50  0001 C CNN
-	1    2525 8625
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5VA #PWR0139
 U 1 1 5BE91C47
 P 6325 8800
@@ -5690,4 +5633,41 @@ F 3 "~" H 14400 1325 50  0001 C CNN
 	1    14400 1325
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole FID4
+U 1 1 5BEFADCC
+P 15100 925
+F 0 "FID4" H 15200 971 50  0000 L CNN
+F 1 "Fiducial" H 15200 880 50  0000 L CNN
+F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 15100 925 50  0001 C CNN
+F 3 "~" H 15100 925 50  0001 C CNN
+	1    15100 925 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole FID5
+U 1 1 5BEFADD3
+P 15100 1125
+F 0 "FID5" H 15200 1171 50  0000 L CNN
+F 1 "Fiducial" H 15200 1080 50  0000 L CNN
+F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 15100 1125 50  0001 C CNN
+F 3 "~" H 15100 1125 50  0001 C CNN
+	1    15100 1125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole FID6
+U 1 1 5BEFADDA
+P 15100 1325
+F 0 "FID6" H 15200 1371 50  0000 L CNN
+F 1 "Fiducial" H 15200 1280 50  0000 L CNN
+F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 15100 1325 50  0001 C CNN
+F 3 "~" H 15100 1325 50  0001 C CNN
+	1    15100 1325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2325 1350 2900 1350
+Wire Wire Line
+	2325 8925 2900 8925
 $EndSCHEMATC
