@@ -725,9 +725,10 @@
     )
   )
 
-  (module Type-C:HRO-TYPE-C-31-M-12-Assembly (layer B.Cu) (tedit 5B968BF6) (tstamp 5BB25B36)
+  (module Type-C:HRO-TYPE-C-31-M-12-Assembly locked (layer B.Cu) (tedit 5B968BF6) (tstamp 5BB25B36)
     (at 144.4625 25.4)
     (path /5B8AFC83)
+    (attr smd)
     (fp_text reference USB1 (at 0 9.62025) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -789,9 +790,10 @@
     )
   )
 
-  (module Type-C:HRO-TYPE-C-31-M-12-Assembly (layer B.Cu) (tedit 5B968BF6) (tstamp 5BA13239)
+  (module Type-C:HRO-TYPE-C-31-M-12-Assembly locked (layer B.Cu) (tedit 5B968BF6) (tstamp 5BA13239)
     (at 219.075 25.4)
     (path /5BCD1800)
+    (attr smd)
     (fp_text reference USB2 (at 0 9.525) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
