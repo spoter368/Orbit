@@ -1,8 +1,6 @@
-### Module positions - created on 10/08/18 21:37:14 ###
+### Module positions - created on 11/12/18 18:26:46 ###
 ### Printed by Pcbnew version kicad (5.0.0)
 ## Unit = mm, Angle = deg.
 ## Side : top
 # Ref     Val       Package                PosX       PosY       Rot  Side
-G***      LOGO      Orbit               68.5800   -92.7100    0.0000  top
-G***      LOGO      Orbit              297.3070   -92.8370    0.0000  top
 ## End

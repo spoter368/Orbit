@@ -86,7 +86,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "Position"))
+      (outputdirectory "Position/"))
   )
 
   (net 0 "")
@@ -11327,7 +11327,7 @@
 
   (module locallib:Orbit locked (layer F.Cu) (tedit 0) (tstamp 5BA9AB3B)
     (at 68.58 92.71)
-    (attr smd)
+    (attr virtual)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -11445,7 +11445,7 @@
 
   (module locallib:Orbit locked (layer F.Cu) (tedit 0) (tstamp 5BA9AB9A)
     (at 297.307 92.837)
-    (attr smd)
+    (attr virtual)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -12192,7 +12192,7 @@
     )
   )
 
-  (module locallib:ai-ring-6mm-FancyAss (layer B.Cu) (tedit 0) (tstamp 5BEA6700)
+  (module locallib:ai-ring-6mm-FancyAss locked (layer B.Cu) (tedit 0) (tstamp 5BEA6700)
     (at 68.2625 75.803125 180)
     (fp_text reference G*** (at 0 0 180) (layer Dwgs.User) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -12280,7 +12280,7 @@
       (xy 0.003969 2.971955)) (layer B.Cu) (width 0.01))
   )
 
-  (module locallib:ai-ring-6mm-FancyAss-Mask (layer B.Cu) (tedit 0) (tstamp 5BEA6731)
+  (module locallib:ai-ring-6mm-FancyAss-Mask locked (layer B.Cu) (tedit 0) (tstamp 5BEA6731)
     (at 68.2625 75.803125 180)
     (fp_text reference G*** (at 0 0 180) (layer Dwgs.User) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -12368,7 +12368,7 @@
       (xy 0.003969 2.971955)) (layer B.Mask) (width 0.01))
   )
 
-  (module locallib:ai-ring-6mm-FancyAss-Mask (layer B.Cu) (tedit 0) (tstamp 5BEA6756)
+  (module locallib:ai-ring-6mm-FancyAss-Mask locked (layer B.Cu) (tedit 0) (tstamp 5BEA6756)
     (at 295.275 75.803125 180)
     (fp_text reference G*** (at 0 0 180) (layer Dwgs.User) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -12456,7 +12456,7 @@
       (xy 0.003969 2.971955)) (layer B.Mask) (width 0.01))
   )
 
-  (module locallib:ai-ring-6mm-FancyAss (layer B.Cu) (tedit 0) (tstamp 5BEA677B)
+  (module locallib:ai-ring-6mm-FancyAss locked (layer B.Cu) (tedit 0) (tstamp 5BEA677B)
     (at 295.275 75.803125 180)
     (fp_text reference G*** (at 0 0 180) (layer Dwgs.User) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -16682,7 +16682,7 @@
   (segment (start 240.919 89.535) (end 240.919 99.695) (width 0.381) (layer F.Cu) (net 234))
   (segment (start 240.919 52.451) (end 240.03 52.451) (width 0.381) (layer B.Cu) (net 234))
 
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5BEA5D75) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5BEA7630) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -16757,7 +16757,7 @@
       )
     )
   )
-  (zone (net 112) (net_name GNDA) (layer B.Cu) (tstamp 5BEA5D72) (hatch edge 0.508)
+  (zone (net 112) (net_name GNDA) (layer B.Cu) (tstamp 5BEA762D) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -16827,7 +16827,7 @@
       )
     )
   )
-  (zone (net 112) (net_name GNDA) (layer B.Cu) (tstamp 5BEA5D6F) (hatch edge 0.508)
+  (zone (net 112) (net_name GNDA) (layer B.Cu) (tstamp 5BEA762A) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -16872,7 +16872,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5BEA5D6C) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5BEA7627) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
