@@ -4841,7 +4841,7 @@ NoConn ~ 6775 14575
 Text Notes 13050 7650 0    50   ~ 10
 LEFT HAND SCHEMATIC
 Text Notes 11100 15225 0    50   ~ 10
-RIGHT HAND SCHEMATIC\n\nPower net changes:\nVCC -> VDD\nGND -> GNDA\n+5V -> +5VA\nto prevent kicad from complaining about no connections between halves
+RIGHT HAND SCHEMATIC\n\nPower net changes:\nVCC -> VDD\nVBUS -> VDC\nGND -> GNDA\n+5V -> +5VA\nto prevent kicad from complaining about no connections between halves
 $Comp
 L power:VDD #PWR0123
 U 1 1 5BD449AE
