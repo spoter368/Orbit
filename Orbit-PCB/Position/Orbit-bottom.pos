@@ -1,17 +1,17 @@
-### Module positions - created on 11/17/18 21:22:50 ###
+### Module positions - created on 11/17/18 22:30:55 ###
 ### Printed by Pcbnew version kicad (5.0.0)
 ## Unit = mm, Angle = deg.
 ## Side : bottom
 # Ref     Val                 Package                               PosX       PosY       Rot  Side
-C1        22pF                C_0603                           -124.5870  -120.5230  270.0000  bottom
-C2        22pF                C_0603                           -131.4450  -120.5230   90.0000  bottom
+C1        22pF                C_0603                           -124.0790  -120.6500  270.0000  bottom
+C2        22pF                C_0603                           -131.3180  -120.6500   90.0000  bottom
 C3        1uF                 C_0603                           -134.6200  -112.7760    0.0000  bottom
 C4        0.1uF               C_0603                           -133.9850  -118.4910  270.0000  bottom
 C5        0.1uF               C_0603                           -121.6660  -117.3480  270.0000  bottom
 C6        0.1uF               C_0603                           -124.5870  -106.5530    0.0000  bottom
 C7        10uF                C_0603                           -131.9530  -106.6800  180.0000  bottom
-C8        22pF                C_0603                           -226.9490  -110.4900  180.0000  bottom
-C9        22pF                C_0603                           -223.9010  -113.9190   90.0000  bottom
+C8        22pF                C_0603                           -226.6950  -110.1090  180.0000  bottom
+C9        22pF                C_0603                           -223.5200  -113.6650   90.0000  bottom
 C10       1uF                 C_0603                           -237.1090  -121.1580    0.0000  bottom
 C11       0.1uF               C_0603                           -239.3950  -107.9500    0.0000  bottom
 C12       0.1uF               C_0603                           -228.7270  -118.3640  180.0000  bottom
@@ -189,6 +189,6 @@ U3        ATmega32U4-MU       QFN-44-1EP_7x7mm_Pitch0.5mm      -235.0682  -113.6
 U4        PRTR5V0U2X          SOT143B                          -219.1385   -37.6238  270.0000  bottom
 USB1      HRO-TYPE-C-31-M-12  HRO-TYPE-C-31-M-12-Assembly      -144.4625   -25.4000    0.0000  bottom
 USB2      HRO-TYPE-C-31-M-12  HRO-TYPE-C-31-M-12-Assembly      -219.0750   -25.4000    0.0000  bottom
-Y1        16MHz               Crystal_SMD_2520-4pin_2.5x2.0mm  -128.0160  -120.5230    0.0000  bottom
-Y2        16MHz               Crystal_SMD_2520-4pin_2.5x2.0mm  -226.9490  -113.8735  270.0000  bottom
+Y1        16MHz               Crystal_SMD_3225-4pin_3.2x2.5mm  -127.6350  -120.6500    0.0000  bottom
+Y2        16MHz               Crystal_SMD_3225-4pin_3.2x2.5mm  -226.6950  -113.6195  270.0000  bottom
 ## End

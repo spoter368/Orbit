@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\Ryota\Documents\GitHub\Orbit\Orbit-PCB\Orbit.sch</source>
-    <date>11/12/2018 6:29:48 PM</date>
+    <date>11/17/2018 10:22:17 PM</date>
     <tool>Eeschema (5.0.0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -44,7 +44,7 @@
     </comp>
     <comp ref="Y1">
       <value>16MHz</value>
-      <footprint>Crystals:Crystal_SMD_2520-4pin_2.5x2.0mm</footprint>
+      <footprint>Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="Crystal_GND24_Small" description="Four pin crystal, two ground/package pins (pin2 and 4) small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1079,7 +1079,7 @@
     </comp>
     <comp ref="Y2">
       <value>16MHz</value>
-      <footprint>Crystals:Crystal_SMD_2520-4pin_2.5x2.0mm</footprint>
+      <footprint>Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="Crystal_GND24_Small" description="Four pin crystal, two ground/package pins (pin2 and 4) small symbol"/>
       <sheetpath names="/" tstamps="/"/>

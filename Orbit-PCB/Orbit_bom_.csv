@@ -18,19 +18,19 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 17,"16MHz, 16kB Flash, 1.25kB SRAM, 512B EEPROM, USB 2.0, QFN-44",ATmega32U4-MU,U1 U3,ATmega32U4-MU,QFN-44-1EP_7x7mm_Pitch0.5mm,2,http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf
 18,,PRTR5V0U2X,U2 U4,PRTR5V0U2X,SOT143B,2,
 19,,HRO-TYPE-C-31-M-12,USB1 USB2,HRO-TYPE-C-31-M-12,HRO-TYPE-C-31-M-12-Assembly,2,
-20,"Four pin crystal, two ground/package pins (pin2 and 4) small symbol",Crystal_GND24_Small,Y1 Y2,16MHz,Crystal_SMD_2520-4pin_2.5x2.0mm,2,~
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-Component Groups:,20,,,,,,
-Component Count:,190,,,,,,
-Fitted Components:,190,,,,,,
-Number of PCBs:,1,,,,,,
-Total components:,190,,,,,,
-Schematic Version:,,,,,,,
-Schematic Date:,,,,,,,
-BoM Date:,11/12/2018 18:29,,,,,,
-Schematic Source:,Orbit\Orbit-PCB\Orbit.sch,,,,,,
-KiCad Version:,Eeschema (5.0.0),,,,,,
+20,"Four pin crystal, two ground/package pins (pin2 and 4) small symbol",Crystal_GND24_Small,Y1 Y2,16MHz,Crystal_SMD_3225-4pin_3.2x2.5mm,2,~
+
+
+
+
+
+Component Groups:,20
+Component Count:,190
+Fitted Components:,190
+Number of PCBs:,1
+Total components:,190
+Schematic Version:,
+Schematic Date:,
+BoM Date:,11/17/2018 10:22:17 PM
+Schematic Source:,C:\Users\Ryota\Documents\GitHub\Orbit\Orbit-PCB\Orbit.sch
+KiCad Version:,Eeschema (5.0.0)
