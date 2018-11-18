@@ -1,4 +1,4 @@
-### Module positions - created on 11/15/18 22:45:53 ###
+### Module positions - created on 11/17/18 19:07:24 ###
 ### Printed by Pcbnew version kicad (5.0.0)
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -182,7 +182,7 @@ R90       1k                  R_0805                            -33.7820  -116.6
 R91       1k                  R_0805                           -319.8812  -116.7130  180.0000  bottom
 R92       1k                  R_0805                           -329.8190  -116.7130  180.0000  bottom
 SW1       SW_Push             SKQGADE010                       -173.4820  -119.6340  330.0000  bottom
-SW2       SW_Push             SKQGADE010                       -190.5000  -119.7610   30.0000  bottom
+SW2       SW_Push             SKQGADE010                       -190.0555  -119.6340   30.0000  bottom
 U1        ATmega32U4-MU       QFN-44-1EP_7x7mm_Pitch0.5mm      -127.7620  -112.3950  180.0000  bottom
 U2        PRTR5V0U2X          SOT143B                          -144.3990   -38.1953  270.0000  bottom
 U3        ATmega32U4-MU       QFN-44-1EP_7x7mm_Pitch0.5mm      -235.0682  -113.6282   90.0000  bottom
