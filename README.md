@@ -19,7 +19,7 @@ A split ergonomic keyboard for all
 
 ## Electrical side
 - The incoming power is handled as shown:
-[Diagram](https://raw.githubusercontent.com/ai03-2725/Orbit/master/Images/Power.png)
+![Diagram](https://raw.githubusercontent.com/ai03-2725/Orbit/master/Images/Power.png)
 - VCC/Raw is the raw power fed through the USB connector. The ESD protection IC is bound to here.
 - VBUS is "stable raw power" after being passed through a polyfuse. Used for upstream detection, for a downstream Schottky diode prevents flow from 5V into VBUS. In other words, VBUS is only at 5V when fed from upstream USB.
 - 5V is the "stable power" after passing through a Schottky diode. Used for powering MCU, LEDs, and other split half. Power from the other half feeds here, for it has already been filtered on the other side.
