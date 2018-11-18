@@ -1,4 +1,4 @@
-### Module positions - created on 11/12/18 19:40:26 ###
+### Module positions - created on 11/15/18 22:45:53 ###
 ### Printed by Pcbnew version kicad (5.0.0)
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -89,8 +89,6 @@ D75       Schottky            D_SOD-123                        -141.3510   -55.7
 D76       Schottky            D_SOD-123                        -215.9000   -55.8800   90.0000  bottom
 F1        500mA               Fuse_SMD1206_Reflow              -141.2875   -49.2125   90.0000  bottom
 F2        500mA               Fuse_SMD1206_Reflow              -215.9000   -49.2125   90.0000  bottom
-J1        PJ-3200B-4A         PJ-3200B-4A                      -168.8080  -106.6550  225.0000  bottom
-J11       PJ-3200B-4A         PJ-3200B-4A                      -194.7295  -106.6550  315.0000  bottom
 Q1        2N7002              SOT-23                           -153.6700  -124.7140   90.0000  bottom
 Q2        2N7002              SOT-23                           -212.1535  -128.2700   90.0000  bottom
 R2        470                 R_0805                            -51.3080   -53.9750  270.0000  bottom
