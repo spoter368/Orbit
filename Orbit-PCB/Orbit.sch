@@ -2485,17 +2485,17 @@ Wire Wire Line
 	6175 5950 6350 5950
 Text Notes 5675 5350 0    50   ~ 0
 Indicator LEDs\n
-Text GLabel 4100 1750 2    50   Input ~ 0
-COL0
-Text GLabel 4100 1850 2    50   Input ~ 0
-COL1
-Text GLabel 4100 1950 2    50   Input ~ 0
-COL2
-Text GLabel 4100 2250 2    50   Input ~ 0
-COL3
 Text GLabel 4100 2350 2    50   Input ~ 0
-COL4
+COL0
+Text GLabel 4100 1750 2    50   Input ~ 0
+COL1
 Text GLabel 4100 3250 2    50   Input ~ 0
+COL2
+Text GLabel 4100 3150 2    50   Input ~ 0
+COL3
+Text GLabel 4100 2950 2    50   Input ~ 0
+COL4
+Text GLabel 4100 3850 2    50   Input ~ 0
 COL5
 Connection ~ 2900 1350
 Connection ~ 3400 4650
@@ -2503,7 +2503,7 @@ Wire Wire Line
 	3500 1050 3600 1050
 Wire Wire Line
 	4500 3450 4100 3450
-Text GLabel 4100 3150 2    50   Input ~ 0
+Text GLabel 4100 3750 2    50   Input ~ 0
 COL6
 Text GLabel 4100 4250 2    50   Input ~ 0
 ROW0
@@ -2513,9 +2513,9 @@ Text GLabel 4100 4050 2    50   Input ~ 0
 ROW2
 Text GLabel 4100 3950 2    50   Input ~ 0
 ROW3
-Text GLabel 4100 3850 2    50   Input ~ 0
+Text GLabel 4100 2850 2    50   Input ~ 0
 ROW4
-Text GLabel 4100 2950 2    50   Input ~ 0
+Text GLabel 4100 1850 2    50   Input ~ 0
 LEDIND-1
 Wire Notes Line
 	7750 675  7750 7700
@@ -4730,17 +4730,17 @@ Wire Wire Line
 	6175 13525 6350 13525
 Text Notes 5675 12925 0    50   ~ 0
 Indicator LEDs\n
-Text GLabel 4100 9325 2    50   Input ~ 0
+Text GLabel 4100 10525 2    50   Input ~ 0
 COL0-R
-Text GLabel 4100 9425 2    50   Input ~ 0
+Text GLabel 4100 10725 2    50   Input ~ 0
 COL1-R
-Text GLabel 4100 9525 2    50   Input ~ 0
+Text GLabel 4100 11425 2    50   Input ~ 0
 COL2-R
-Text GLabel 4100 9825 2    50   Input ~ 0
+Text GLabel 4100 11325 2    50   Input ~ 0
 COL3-R
-Text GLabel 4100 9925 2    50   Input ~ 0
+Text GLabel 4100 11525 2    50   Input ~ 0
 COL4-R
-Text GLabel 4100 10825 2    50   Input ~ 0
+Text GLabel 4100 11625 2    50   Input ~ 0
 COL5-R
 Connection ~ 2900 8925
 Connection ~ 3400 12225
@@ -4748,19 +4748,19 @@ Wire Wire Line
 	3500 8625 3600 8625
 Wire Wire Line
 	4500 11025 4100 11025
-Text GLabel 4100 10725 2    50   Input ~ 0
+Text GLabel 4100 9825 2    50   Input ~ 0
 COL6-R
-Text GLabel 4100 11825 2    50   Input ~ 0
+Text GLabel 4100 9525 2    50   Input ~ 0
 ROW0-R
-Text GLabel 4100 11725 2    50   Input ~ 0
+Text GLabel 4100 9425 2    50   Input ~ 0
 ROW1-R
-Text GLabel 4100 11625 2    50   Input ~ 0
+Text GLabel 4100 9325 2    50   Input ~ 0
 ROW2-R
-Text GLabel 4100 11525 2    50   Input ~ 0
+Text GLabel 4100 10825 2    50   Input ~ 0
 ROW3-R
-Text GLabel 4100 11425 2    50   Input ~ 0
+Text GLabel 4100 11125 2    50   Input ~ 0
 ROW4-R
-Text GLabel 4100 10525 2    50   Input ~ 0
+Text GLabel 4100 11725 2    50   Input ~ 0
 LEDIND-1-R
 Wire Notes Line
 	7750 8250 7750 15275
@@ -5544,13 +5544,13 @@ Wire Wire Line
 	7000 13850 7250 13850
 Wire Wire Line
 	7250 13850 7250 13525
-Text GLabel 4100 3750 2    50   Input ~ 0
+Text GLabel 4100 1950 2    50   Input ~ 0
 LEDIND-2
-Text GLabel 4100 3550 2    50   Input ~ 0
+Text GLabel 4100 2250 2    50   Input ~ 0
 LEDIND-3
-Text GLabel 4100 11325 2    50   Input ~ 0
+Text GLabel 4100 11825 2    50   Input ~ 0
 LEDIND-2-R
-Text GLabel 4100 11125 2    50   Input ~ 0
+Text GLabel 4100 9925 2    50   Input ~ 0
 LEDIND-3-R
 Wire Notes Line
 	14250 675  15625 675 
