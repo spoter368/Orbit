@@ -10,3 +10,15 @@
 [submodule "Orbit-PCB/Keebio-Parts.pretty"]
 	path = Orbit-PCB/Keebio-Parts.pretty
 	url = https://github.com/keebio/Keebio-Parts.pretty
+[submodule "Orbit-Choc-PCB/Keebio-Parts.pretty"]
+	path = Orbit-Choc-PCB/Keebio-Parts.pretty
+	url = https://github.com/keebio/Keebio-Parts.pretty
+[submodule "Orbit-Choc-PCB/MX_Alps_Hybrid.pretty"]
+	path = Orbit-Choc-PCB/MX_Alps_Hybrid.pretty
+	url = https://github.com/ai03-2725/MX_Alps_Hybrid.pretty
+[submodule "Orbit-Choc-PCB/random-keyboard-parts.pretty"]
+	path = Orbit-Choc-PCB/random-keyboard-parts.pretty
+	url = https://github.com/ai03-2725/random-keyboard-parts.pretty
+[submodule "Orbit-Choc-PCB/Type-C.pretty"]
+	path = Orbit-Choc-PCB/Type-C.pretty
+	url = https://github.com/ai03-2725/Type-C.pretty
