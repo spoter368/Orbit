@@ -3,6 +3,10 @@ A split ergonomic keyboard for all
 
 ![Render Image](https://raw.githubusercontent.com/ai03-2725/Orbit/master/Images/PCB-R2.0.jpg)
 
+#### In light of recent claims that I am 100% liable for any of my open source PCBs, I am adding this disclaimer.
+#### I provide these PCBs as a reference for designing keyboard PCBs. Using them within your projects will require a will to do research of one's own and to learn the workings of them, potentially fixing issues if they exist.
+# I provide these PCBs without liability and without any guarantees regarding functionality, as expressed in the licenses under which these PCBs are licensed.
+
 ## Features
 - Ergonomic layout based on the [crkbd](https://github.com/foostan/crkbd)
 - All on-board components; no separate controller board
