@@ -655,14 +655,10 @@ Text Notes 700  775  0    50   ~ 0
 MCU\n
 Wire Notes Line
 	675  675  675  7700
-Wire Notes Line
-	5650 675  5650 7700
 Text Notes 700  5350 0    50   ~ 0
 USB, ESD protection, Polyfuse
 Text Notes 6675 1750 0    50   ~ 0
 Resistors on left half only
-Text GLabel 4100 2050 2    50   Input ~ 0
-LEDPWM
 Text Notes 5675 4075 0    50   ~ 0
 Backlight Control
 Wire Notes Line
@@ -691,17 +687,17 @@ Wire Wire Line
 	3225 7300 3275 7300
 Text Notes 5675 5350 0    50   ~ 0
 Indicator LEDs\n
-Text GLabel 4100 2350 2    50   Input ~ 0
+Text GLabel 4100 3750 2    50   Input ~ 0
 COL0
-Text GLabel 4100 1750 2    50   Input ~ 0
-COL1
-Text GLabel 4100 3250 2    50   Input ~ 0
-COL2
-Text GLabel 4100 3150 2    50   Input ~ 0
-COL3
-Text GLabel 4100 2950 2    50   Input ~ 0
-COL4
 Text GLabel 4100 3850 2    50   Input ~ 0
+COL1
+Text GLabel 4100 3950 2    50   Input ~ 0
+COL2
+Text GLabel 4100 4050 2    50   Input ~ 0
+COL3
+Text GLabel 4100 2350 2    50   Input ~ 0
+COL4
+Text GLabel 4100 2250 2    50   Input ~ 0
 COL5
 Connection ~ 2900 1350
 Connection ~ 3400 4650
@@ -709,20 +705,14 @@ Wire Wire Line
 	3500 1050 3600 1050
 Wire Wire Line
 	4500 3450 4100 3450
-Text GLabel 4100 3750 2    50   Input ~ 0
-COL6
-Text GLabel 4100 4250 2    50   Input ~ 0
+Text GLabel 4100 1750 2    50   Input ~ 0
 ROW0
-Text GLabel 4100 4150 2    50   Input ~ 0
-ROW1
-Text GLabel 4100 4050 2    50   Input ~ 0
-ROW2
-Text GLabel 4100 3950 2    50   Input ~ 0
-ROW3
-Text GLabel 4100 2850 2    50   Input ~ 0
-ROW4
 Text GLabel 4100 1850 2    50   Input ~ 0
-LEDIND-1
+ROW1
+Text GLabel 4100 1950 2    50   Input ~ 0
+ROW2
+Text GLabel 4100 4250 2    50   Input ~ 0
+ROW3
 Wire Notes Line
 	7750 675  7750 7700
 Text Notes 5675 6500 0    50   ~ 0
@@ -750,18 +740,6 @@ F 3 "~" H 6000 7000 50  0001 C CNN
 	1    6000 7000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J6
-U 1 1 5BBF48DE
-P 6000 7175
-F 0 "J6" H 6079 7217 50  0000 L CNN
-F 1 "Breakaway_Tabs" H 6079 7126 50  0000 L CNN
-F 2 "locallib:breakaway-mousebites" H 6000 7175 50  0001 C CNN
-F 3 "~" H 6000 7175 50  0001 C CNN
-	1    6000 7175
-	1    0    0    -1  
-$EndComp
-NoConn ~ 5800 7175
 NoConn ~ 5800 7000
 $Comp
 L Connector_Generic:Conn_01x01 J7
@@ -786,18 +764,6 @@ F 3 "~" H 6975 7000 50  0001 C CNN
 	1    6975 7000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J10
-U 1 1 5BC3C176
-P 6975 7175
-F 0 "J10" H 7054 7217 50  0000 L CNN
-F 1 "Breakaway_Tabs" H 7054 7126 50  0000 L CNN
-F 2 "locallib:breakaway-mousebites" H 6975 7175 50  0001 C CNN
-F 3 "~" H 6975 7175 50  0001 C CNN
-	1    6975 7175
-	1    0    0    -1  
-$EndComp
-NoConn ~ 6775 7175
 NoConn ~ 6775 7000
 $Comp
 L MCU_Microchip_ATmega:ATmega32U4-MU U3
@@ -1220,8 +1186,6 @@ Text Notes 700  12925 0    50   ~ 0
 USB, ESD protection, Polyfuse
 Text Notes 5975 9375 0    50   ~ 0
 Resistors on left half only
-Text GLabel 4100 9625 2    50   Input ~ 0
-LEDPWM-R
 Text Notes 5675 11650 0    50   ~ 0
 Backlight Control
 Wire Notes Line
@@ -1240,17 +1204,17 @@ Wire Wire Line
 	3225 14875 3275 14875
 Text Notes 5675 12925 0    50   ~ 0
 Indicator LEDs\n
-Text GLabel 4100 10525 2    50   Input ~ 0
+Text GLabel 4100 9825 2    50   Input ~ 0
 COL0-R
-Text GLabel 4100 10725 2    50   Input ~ 0
+Text GLabel 4100 9925 2    50   Input ~ 0
 COL1-R
-Text GLabel 4100 11425 2    50   Input ~ 0
+Text GLabel 4100 11125 2    50   Input ~ 0
 COL2-R
 Text GLabel 4100 11325 2    50   Input ~ 0
 COL3-R
-Text GLabel 4100 11525 2    50   Input ~ 0
+Text GLabel 4100 11425 2    50   Input ~ 0
 COL4-R
-Text GLabel 4100 11625 2    50   Input ~ 0
+Text GLabel 4100 11525 2    50   Input ~ 0
 COL5-R
 Connection ~ 2900 8925
 Connection ~ 3400 12225
@@ -1258,20 +1222,14 @@ Wire Wire Line
 	3500 8625 3600 8625
 Wire Wire Line
 	4500 11025 4100 11025
-Text GLabel 4100 9825 2    50   Input ~ 0
-COL6-R
-Text GLabel 4100 9525 2    50   Input ~ 0
-ROW0-R
-Text GLabel 4100 9425 2    50   Input ~ 0
-ROW1-R
-Text GLabel 4100 9325 2    50   Input ~ 0
-ROW2-R
 Text GLabel 4100 10825 2    50   Input ~ 0
+ROW0-R
+Text GLabel 4100 10725 2    50   Input ~ 0
+ROW1-R
+Text GLabel 4100 11825 2    50   Input ~ 0
+ROW2-R
+Text GLabel 4100 10525 2    50   Input ~ 0
 ROW3-R
-Text GLabel 4100 11125 2    50   Input ~ 0
-ROW4-R
-Text GLabel 4100 11725 2    50   Input ~ 0
-LEDIND-1-R
 Wire Notes Line
 	7750 8250 7750 15275
 Text Notes 5675 14075 0    50   ~ 0
@@ -1335,18 +1293,6 @@ F 3 "~" H 6975 14575 50  0001 C CNN
 	1    6975 14575
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J20
-U 1 1 5BCD1D70
-P 6975 14750
-F 0 "J20" H 7054 14792 50  0000 L CNN
-F 1 "Breakaway_Tabs" H 7054 14701 50  0000 L CNN
-F 2 "locallib:breakaway-mousebites" H 6975 14750 50  0001 C CNN
-F 3 "~" H 6975 14750 50  0001 C CNN
-	1    6975 14750
-	1    0    0    -1  
-$EndComp
-NoConn ~ 6775 14750
 NoConn ~ 6775 14575
 Text Notes 13050 7650 0    50   ~ 10
 LEFT HAND SCHEMATIC
@@ -1620,14 +1566,6 @@ Text GLabel 4100 3050 2    50   Input ~ 0
 HDETECT
 Text GLabel 4100 10625 2    50   Input ~ 0
 HDETECT-R
-Text GLabel 4100 1950 2    50   Input ~ 0
-LEDIND-2
-Text GLabel 4100 2250 2    50   Input ~ 0
-LEDIND-3
-Text GLabel 4100 11825 2    50   Input ~ 0
-LEDIND-2-R
-Text GLabel 4100 9925 2    50   Input ~ 0
-LEDIND-3-R
 Wire Notes Line
 	14250 675  15625 675 
 Wire Notes Line
@@ -1669,39 +1607,6 @@ F 1 "Fiducial" H 14500 1280 50  0000 L CNN
 F 2 "Fiducial:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 14400 1325 50  0001 C CNN
 F 3 "~" H 14400 1325 50  0001 C CNN
 	1    14400 1325
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole FID4
-U 1 1 5BEFADCC
-P 15100 925
-F 0 "FID4" H 15200 971 50  0000 L CNN
-F 1 "Fiducial" H 15200 880 50  0000 L CNN
-F 2 "Fiducial:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 15100 925 50  0001 C CNN
-F 3 "~" H 15100 925 50  0001 C CNN
-	1    15100 925 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole FID5
-U 1 1 5BEFADD3
-P 15100 1125
-F 0 "FID5" H 15200 1171 50  0000 L CNN
-F 1 "Fiducial" H 15200 1080 50  0000 L CNN
-F 2 "Fiducial:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 15100 1125 50  0001 C CNN
-F 3 "~" H 15100 1125 50  0001 C CNN
-	1    15100 1125
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole FID6
-U 1 1 5BEFADDA
-P 15100 1325
-F 0 "FID6" H 15200 1371 50  0000 L CNN
-F 1 "Fiducial" H 15200 1280 50  0000 L CNN
-F 2 "Fiducial:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 15100 1325 50  0001 C CNN
-F 3 "~" H 15100 1325 50  0001 C CNN
-	1    15100 1325
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -3292,4 +3197,18 @@ Wire Wire Line
 	2650 9225 2625 9225
 Wire Wire Line
 	2425 9225 2400 9225
+Wire Notes Line
+	5650 675  5650 7700
+NoConn ~ 5800 7175
+$Comp
+L Connector_Generic:Conn_01x01 J6
+U 1 1 5BBF48DE
+P 6000 7175
+F 0 "J6" H 6079 7217 50  0000 L CNN
+F 1 "Breakaway_Tabs" H 6079 7126 50  0000 L CNN
+F 2 "locallib:breakaway-mousebites" H 6000 7175 50  0001 C CNN
+F 3 "~" H 6000 7175 50  0001 C CNN
+	1    6000 7175
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
