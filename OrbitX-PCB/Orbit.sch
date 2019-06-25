@@ -3284,4 +3284,12 @@ Text GLabel 9100 11175 0    50   Input ~ 0
 ROW2-R
 Text GLabel 9100 11800 0    50   Input ~ 0
 ROW3-R
+Wire Wire Line
+	2650 1650 2625 1650
+Wire Wire Line
+	2425 1650 2400 1650
+Wire Wire Line
+	2650 9225 2625 9225
+Wire Wire Line
+	2425 9225 2400 9225
 $EndSCHEMATC
