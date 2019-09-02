@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Orbit-cache
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Orbit-rescue:ATmega32U4-MU-MCU_Microchip_ATmega U1
+L MCU_Microchip_ATmega:ATmega32U4-MU U1
 U 1 1 5B8AA2C1
 P 3500 2850
 F 0 "U1" H 3500 964 50  0000 C CNN
@@ -100,7 +100,7 @@ $EndComp
 Wire Wire Line
 	1725 1350 1925 1350
 $Comp
-L Orbit-rescue:Crystal_GND24_Small-Device Y1
+L Device:Crystal_GND24_Small Y1
 U 1 1 5B8AA97A
 P 2525 1650
 F 0 "Y1" V 2479 1816 50  0000 L CNN
@@ -2594,7 +2594,7 @@ $EndComp
 NoConn ~ 6775 7175
 NoConn ~ 6775 7000
 $Comp
-L Orbit-rescue:ATmega32U4-MU-MCU_Microchip_ATmega U3
+L MCU_Microchip_ATmega:ATmega32U4-MU U3
 U 1 1 5BCD1728
 P 3500 10425
 F 0 "U3" H 3500 8539 50  0000 C CNN
@@ -2635,7 +2635,7 @@ $EndComp
 Wire Wire Line
 	1725 8925 1925 8925
 $Comp
-L Orbit-rescue:Crystal_GND24_Small-Device Y2
+L Device:Crystal_GND24_Small Y2
 U 1 1 5BCD176B
 P 2525 9225
 F 0 "Y2" V 2479 9391 50  0000 L CNN
